@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Login System</title>
+   <style type="text/css">
+      h1
+      {
+         background-color: lightpink;
+         text-align: center; 
+         font-size: 80px;
+      }
+      #div1
+      {  
+         font-size: 30px;
+         background-color: lightblue;
+         margin-top: 100px;
+      }
+      #div2
+      {
+         font-size: 30px;
+         background-color: lightgreen;
+         margin-top: 20px;  
+      }
+      body
+      {
+         background-color: black;
+      }      
+      table
+      {
+         font-size: 30px;
+         border-style: solid;
+         border-color: red;
+         border-width: 2px;
+
+         padding: 20px; 
+      }
+
+   </style>
+</head>
+<body>
+   <h1>Login System</h1>
+   <div id="div1">
+      <h2 align="center">sign up here :</h2>
+      <form action="login_validation.php" method="post">
+         <table align="center">
+            <tr>
+               <td>User Name : </td>
+               <td><input type="text" name="username" placeholder="Username"></td>
+            </tr>
+            <tr>
+               <td>Password : </td>
+               <td><input type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+               <td align="center"><input type="Submit" name="" value=" Sign Up"></td>
+            </tr>
+         </table>
+      </form>
+   </div>
+   <div id="div2" align="center">
+      <h2>New user Register first :</h2>
+      <form action="register.php" method="post"><input type="submit" name="" value="Register"></form>
+   </div>
+
+</body>
+</html>
